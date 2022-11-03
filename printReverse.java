@@ -3,7 +3,7 @@ package com.blz.arraysDay3;
 import java.util.Scanner;
 
 public class printReverse {
-	public static void main(String[] args) {
+    public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
     System.out.println("Enter the the size of the array");
     int size = sc.nextInt();
@@ -19,7 +19,7 @@ public class printReverse {
     System.out.println();
     System.out.print("The array in reversed order is : ");
     for(int i = arr.length-1; i >=0; i--) {
-    	System.out.print(arr[i]+ " ");
+    System.out.print(arr[i]+ " ");
     }
    }
 }
